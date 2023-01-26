@@ -1,17 +1,17 @@
 {
-    "name": "roll-inline",
-    "title": "Roll Inline Dice",
-    "description": "Right-Click on inline rolls in journals to roll them in chat.",
-    "version": "0.9.9",
-    "author": "UnderMybrella",
-    "scripts": ["bundle.js"],
-    "styles": ["roll-inline.css"],
-    "languages": [],
-    "url": "https://github.com/UnderMybrella/roll-inline-foundry",
-    "manifest": "https://raw.githubusercontent.com/UnderMybrella/roll-inline-foundry/master/Source/module.json",
-    "download": "https://raw.githubusercontent.com/UnderMybrella/roll-inline-foundry/master/Package/roll-inline-v1.0.0.zip",
-    "compatibility": {
-        "minimum": "9",
-        "verified": "10"
-    }
+	"name": "roll-inline",
+	"title": "Roll Inline Dice",
+	"description": "Right-Click on inline rolls in journals to roll them in chat.",
+	"version": "1.0.0",
+	"author": "UnderMybrella",
+	"scripts": ["bundle.js"],
+	"styles": ["roll-inline.css"],
+	"languages": [],
+	"url": "https://github.com/UnderMybrella/roll-inline-foundry",
+	"manifest": "https://raw.githubusercontent.com/UnderMybrella/roll-inline-foundry/master/Source/module.json",
+	"download": "https://raw.githubusercontent.com/UnderMybrella/roll-inline-foundry/v1.0.0/dist/roll-inline-v1.0.0.zip",
+	"compatibility": {
+		"minimum": "9",
+		"verified": "10"
+	}
 }
