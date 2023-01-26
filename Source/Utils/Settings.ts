@@ -13,7 +13,7 @@ class Settings {
 				hint: "Really think about it... is the DM cool?",
 				config: true, // It should appear in the configuration menu
 				default: false, // The DM is NOT cool by default
-				onChange: val => Logger.Ok("It has been deemed that the DM is " + (val ? "" : "NOT ") + "cool!"),
+				onChange: (val: any) => Logger.Ok("It has been deemed that the DM is " + (val ? "" : "NOT ") + "cool!"),
 			}]
 		];
 	}
@@ -33,7 +33,6 @@ class Settings {
 		if (this.SettingsInit)
 			return;
 
-		Assert(game instanceof Game);
 		const g = game as Game;
 		this.SettingsList.forEach((item) => {
 			g.settings.register(Globals.ModuleName, item[0], item[1]);
@@ -42,7 +41,7 @@ class Settings {
 		this.SettingsInit = true;
 	}
 
-	readonly SettingsList: ReadonlyArray<Pair<ClientSettings.PartialSetting>>;
+	readonly SettingsList: ReadonlyArray<Pair<ClientSettings.PartialSettingConfig>>;
 }
 
 export const RegisterSettings = (): void => Settings.Get().RegisterSettings();

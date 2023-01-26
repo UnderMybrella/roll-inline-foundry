@@ -1,5 +1,5 @@
 {
-    "moduleName": "Lazrius' FoundryVTT Template",
-    "repository": "https://github.com/Lazrius/FoundryVTT-Typescript-Module-Template",
-    "rawURL": "https://raw.githubusercontent.com/Lazrius/FoundryVTT-Typescript-Module-Template"
+    "moduleName": "Roll Inline",
+    "repository": "https://github.com/UnderMybrella/roll-inline-foundry",
+    "rawURL": "https://raw.githubusercontent.com/UnderMybrella/roll-inline-foundry"
 }

@@ -1,15 +1,17 @@
 {
-	"name": "lazrius-foundry-template",
-	"title": "Lazrius' FoundryVTT Template",
-	"description": ".",
-	"version": "1.0.0",
-	"author": "Laz#9427",
-	"scripts": ["bundle.js"],
-	"styles": ["lazrius-foundry-template.css"],
-	"languages": [],
-	"minimumCoreVersion": "0.8.8",
-	"compatibleCoreVersion": "0.8.8",
-	"url": "https://github.com/Lazrius/FoundryVTT-Typescript-Module-Template",
-	"manifest": "https://raw.githubusercontent.com/Lazrius/FoundryVTT-Typescript-Module-Template/master/Source/module.json",
-	"download": "https://raw.githubusercontent.com/Lazrius/FoundryVTT-Typescript-Module-Template/master/Package/lazrius-foundry-template-v1.0.0.zip"
+    "name": "roll-inline",
+    "title": "Roll Inline Dice",
+    "description": "Right-Click on inline rolls in journals to roll them in chat.",
+    "version": "0.9.9",
+    "author": "UnderMybrella",
+    "scripts": ["bundle.js"],
+    "styles": ["roll-inline.css"],
+    "languages": [],
+    "url": "https://github.com/UnderMybrella/roll-inline-foundry",
+    "manifest": "https://raw.githubusercontent.com/UnderMybrella/roll-inline-foundry/master/Source/module.json",
+    "download": "https://raw.githubusercontent.com/UnderMybrella/roll-inline-foundry/master/Package/roll-inline-v1.0.0.zip",
+    "compatibility": {
+        "minimum": "9",
+        "verified": "10"
+    }
 }
