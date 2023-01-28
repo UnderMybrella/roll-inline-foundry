@@ -1,9 +1,10 @@
-import Globals from "../Globals";
+import Globals, {fromGame, ifDebugging} from "../Globals";
 import Color from "color";
 
 class Logger {
 	// static class
-	private constructor() {}
+	private constructor() {
+	}
 
 	private static GetCurrentTime(): string {
 		return `[${(new Date().toLocaleTimeString())}] `;
@@ -26,6 +27,10 @@ class Logger {
 
 	static Ok(str: string): void {
 		Logger.Log(str, Color("green"));
+	}
+
+	static Trace(str: string): void {
+		ifDebugging(() => Logger.Log(str, Color("red")));
 	}
 }
 
