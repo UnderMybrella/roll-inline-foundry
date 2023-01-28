@@ -5,6 +5,29 @@ import {DevModeApi} from "./Utils/DevModeTypes";
 export default {
 	ModuleName: "roll-inline",
 	IsModule: true, // If you are developing a system rather than a module, change this to false
+
+	DomConstants: {
+		href: {
+			openHiddenCondition: "#open-condition",
+
+			close: "#close-hidden"
+		},
+		classes: {
+			divHiddenNode: "hidden-condition",
+			anchorSetFlag: "set-flag"
+		},
+		data: {
+			hiddenConditionCheck: "check",
+			hiddenConditionCheckType: "check_type",
+			hiddenConditionCompare: "compare",
+			hiddenConditionDC: "dc",
+
+			hiddenNodeType: "type",
+
+			anchorSetFlag: "flag",
+			anchorSetFlagValue: "flag_value"
+		}
+	}
 }
 
 // Pop some fairly universal types that we might use

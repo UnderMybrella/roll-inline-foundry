@@ -1,5 +1,5 @@
 {
-	"name": "lazrius-foundry-template",
+	"name": "roll-inline",
 	"version": "1.2.0",
 	"description": "",
 	"main": "index.js",
@@ -10,7 +10,7 @@
 		"build:watch": "gulp watch",
 		"clean": "gulp clean && gulp link --clean"
 	},
-	"author": "Lazrius",
+	"author": "UnderMybrella",
 	"license": "GPLv3",
 	"devDependencies": {
 		"@babel/core": "^7.15.0",

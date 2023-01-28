@@ -8,4 +8,4 @@ $.fn.immediateText = function() {
 	return this.contents().not(this.children()).text();
 };
 
-export {};
+export default {};
