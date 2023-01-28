@@ -1,4 +1,4 @@
-enum LogLevel {
+export enum LogLevel {
 	NONE = 0,
 	INFO = 1,
 	ERROR = 2,
@@ -7,7 +7,7 @@ enum LogLevel {
 	ALL = 5,
 }
 
-interface DevModeApi {
+export interface DevModeApi {
 	registerPackageDebugFlag(packageName: string, kind?: "boolean" | "level", options?: {
 		default?: boolean | LogLevel;
 		choiceLabelOverrides?: Record<string, string>; // actually keyed by LogLevel number

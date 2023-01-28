@@ -1,7 +1,6 @@
 import assert from "assert"
-import Color from "color";
 import Globals from "./Globals";
-import Logger from "./Utils/Logger";
+import {DevModeApi} from "./Utils/DevModeTypes";
 
 export default {
 	ModuleName: "roll-inline",
@@ -43,13 +42,3 @@ export function ifDebugging<T>(func: () => T, ifNot?: () => T | undefined): T | 
 		return undefined;
 	}
 }
-
-declare global {
-	interface JQuery {
-		immediateText(): string;
-	}
-}
-
-$.fn.immediateText = function() {
-	return this.contents().not(this.children()).text();
-};

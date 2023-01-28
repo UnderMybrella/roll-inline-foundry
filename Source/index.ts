@@ -4,6 +4,7 @@ import {
 	ClientDocumentMixin
 } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/client/data/abstract/client-document";
 import Globals, {fromGame, ifDebugging} from "./Globals";
+import {DevModeApi} from "./Utils/DevModeTypes";
 
 interface EnrichmentOptions extends Record<string, any> {
 	secrets: boolean,
